@@ -5,85 +5,77 @@ body {
     min-height: 100vh;
 }
 
-.header1-container {
+.background {
     background-color: #1f2937;
-    color: white;
-    height: 350px;
-    
+    height: 450px;
 }
 
-
-
-.header0 {
+.header-container {
     display: flex;
     justify-content: space-around;
-    gap: 260px;
-    padding-bottom: 32px;
-    
 }
 
-.header1, .header2 {
-    padding: 12px;
-    /* For header2 only but used here since it doesn't affect header1 */
-    display: flex;
-    gap: 14px;
-    
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding-top: 24px;
 }
 
-.body1 {
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 24px;
+
+}
+
+.right-elements {
     display: flex;
+    gap: 28px;
+    float: inline-end;
+}
+
+.header-body-container {
+    display: flex;
+    align-items: space-between;
     justify-content: space-around;
-    align-items: ;
-    
+    padding-top: 48px;
+
 
 }
 
-.body1-container1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 270px;
-    margin: 0;
-    padding: 0;
-    font-weight: #f9faf8;
+.leftelements {
+    width: 350px;
+    margin-right: -125px;
+
 
 }
 
-h2 {
-    margin-bottom: -10px;
+#heading {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
 }
 
-.text1 {
-    font-size: small;
+#sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-.body1-image {
-    height: 180px;
+img {
+    height: 275px;
     width: auto;
 
 }
 
-img {
-    height: 30px;
-    width: 40px;
 
-}
 
-a {
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-}
-
-.sign-up {
+#sign-up {
     background-color: #3882f6;
+    padding: 10px;
+    padding-right: 56px;
+    padding-left: 56px;
     color: white;
-    position: relative;
-    background-color: #372594;
-    color: #ddd;
-    padding: 12px;
-    border: 0px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.5s;
-    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 30%);
+    font-weight: 900;
+    border-radius: 15px
 }
